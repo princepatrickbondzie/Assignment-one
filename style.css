@@ -1,0 +1,354 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: brown;
+  padding: 10%;
+  width: 100vw;
+  font-size: 10px;
+}
+header {
+  padding: 3.9%;
+  background-color: white;
+  height: 100px;
+}
+.bground {
+  background-color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+nav ul li a span {
+  display: block;
+}
+nav ul li {
+  margin: 0 20;
+  text-align: center;
+}
+nav div span {
+  display: block;
+  padding-right: 2rem;
+}
+.log-text {
+  background-color: rgb(75, 32, 32);
+  height: 100px;
+  padding: 4.3%;
+  font-size: 2.5rem;
+  font-style: oblique;
+  color: white;
+  align-content: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 70%;
+}
+nav ul li {
+  padding: 0.5rem;
+  display: inline;
+  float: left;
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+span {
+  font-style: italic;
+  color: burlywood;
+}
+.main1 {
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+img {
+  width: 95vw;
+  height: 85vh;
+}
+.contact {
+  color: burlywood;
+}
+center h2 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-family: cursive;
+  font-size: 1.6rem;
+}
+center h2 hr {
+  width: 10%;
+  margin: 0 auto;
+  height: 5px;
+  background-color: rgb(75, 32, 32);
+  border: none;
+}
+.container2 {
+  height: 40rem;
+  display: flex;
+  margin-top: 2%;
+}
+.cont-left {
+  width: 50%;
+  background-color: rgb(75, 32, 32);
+}
+.cont-right {
+  width: 50%;
+}
+#img-side {
+  width: 100%;
+  height: 40rem;
+  display: block;
+  object-fit: cover;
+}
+.heading {
+  margin-left: 8%;
+  padding-top: 10%;
+  color: white;
+  font-style: oblique;
+  font-size: 1.9rem;
+  text-align: center;
+}
+.story {
+  padding-top: 6%;
+  padding-left: 25%;
+  color: white;
+  font-size: 1.2rem;
+}
+.heading hr {
+  width: 15%;
+  margin: 0 auto;
+  height: 5px;
+  background-color: burlywood;
+  border: none;
+}
+.section3-right {
+  background-color: white;
+}
+button {
+  background-color: rgb(75, 32, 32);
+  color: white;
+  height: 2.5rem;
+  width: 12rem;
+  border-radius: 0.4rem;
+  border: 2px solid rgb(75, 32, 32);
+  margin-bottom: 2%;
+  font-size: 1.4rem;
+  padding-top: 0%;
+}
+button:hover {
+  background-color: white;
+  color: rgb(75, 32, 32);
+  border: 2px solid rgb(75, 32, 32);
+}
+.li-list a {
+  color: white;
+}
+.offer {
+  height: 60vh;
+  display: block;
+}
+.img-circle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 70%;
+}
+.img-circle1 {
+  background-image: url(./bread-2864792_1280.jpg);
+  height: 100%;
+  width: 25%;
+  border-radius: 50%;
+}
+.img-circle2 {
+  background-image: url(./no-gluten-bread-1905736_1280.jpg);
+  height: 100%;
+  width: 25%;
+  border-radius: 50%;
+}
+.img-circle3 {
+  background-image: url(./bread-399286_640.jpg);
+  height: 100%;
+  width: 25%;
+  border-radius: 50%;
+}
+/*-----Class Resturant Section*/
+.resturant {
+  height: 30rem;
+}
+.bread-cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 80%;
+}
+.card {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.img-card {
+  width: 100%;
+  height: 80%;
+  /* display: block;
+  object-fit: cover; */
+}
+.img-card img {
+  height: 100%;
+  width: 100%;
+}
+/*-----------------------------*/
+.our-bread {
+  height: 40rem;
+}
+.ob-cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 70%;
+}
+.pic {
+  height: 100%;
+  width: 20%;
+  display: block;
+  justify-content: space-evenly;
+}
+.ob-text {
+  text-align: center;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 20%;
+}
+.ob-text h2 p {
+  margin-bottom: 2rem;
+}
+.butt {
+  margin-top: 2%;
+  /* text-align: center; */
+}
+/*----------------------------------*/
+.subs {
+  height: 30rem;
+  display: flex;
+}
+.img-sub {
+  width: 50%;
+}
+#imgc {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+.email {
+  background-color: rgb(75, 32, 32);
+  width: 50%;
+  align-items: center;
+}
+div h3 {
+  padding-top: 20%;
+  text-align: center;
+  font-size: 2.8rem;
+}
+div h3 hr {
+  width: 15%;
+  margin: 0 auto;
+  height: 5px;
+  background-color: burlywood;
+  border: none;
+}
+.email h3 {
+  color: white;
+}
+.email .ell {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+.input {
+  margin-left: 20%;
+  display: flex;
+  height: 3rem;
+}
+#input1 {
+  height: 100%;
+  width: 20rem;
+  border: 3px solid burlywood;
+}
+.join {
+  height: 100%;
+  border-radius: 0%;
+  width: 8rem;
+  background-color: burlywood;
+  color: white;
+  font-size: 1.4rem;
+}
+.foot {
+  width: 100%;
+  height: 33rem;
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(10, 6, 3);
+}
+/*.foot-li
+.foot-li2
+.foot-li3{
+  padding-top: 20%;
+}*/
+.foot-li {
+  width: 25%;
+  background-color: rgb(10, 6, 3);
+}
+.li23 {
+  width: 25%;
+  background-color: rgb(10, 6, 3);
+  color: white;
+}
+.jane {
+  width: 25%;
+  background-color: rgb(10, 6, 3);
+}
+.fb {
+  width: 25%;
+  background-color: rgb(10, 6, 3);
+}
+.log2 {
+  text-align: center;
+  margin-top: 30%;
+  font-size: 3rem;
+  font-family: cursive;
+  color: white;
+}
+.foot-li ul li {
+  margin-left: 50%;
+  margin-top: 25%;
+  font-size: 1.5rem;
+  text-decoration: none;
+  list-style: none;
+  /* display: flex;
+  flex-direction: column; */
+}
+.foot-li2 {
+  margin-top: 40%;
+  font-size: 1.5rem;
+  margin-left: 20%;
+}
+.foot-li3 {
+  margin-top: 50%;
+  font-size: 1.5rem;
+  margin-left: 20%;
+}
